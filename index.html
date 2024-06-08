@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App - Matemática Discreta</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+    <body>
+        <div id="equations"></div>
+        <div class="container">
+            <div class="title">
+                <h1>Verificador de propriedades</h1>
+            </div>
+
+            <div class="buttons">
+                    <button class="pImp" onclick="adicionarClasse('div1')">Par ou ìmpar</button>
+                    <button class="primComp" onclick="adicionarClasse('div2')"> Primo ou composto</button>
+                    <button class="mod" onclick="adicionarClasse('div3')">Modulo</button>
+                    <button class="mmc" onclick="adicionarClasse('div4')">MMC</button>
+                    <button class="mdc" onclick="adicionarClasse('div5')">MDC</button>
+            </div>
+
+            <div class="boxes">
+                
+                <div class="box1 escondido" id="div1">
+                    <h2>Par ou ìmpar</h2>
+                        <label> Digite um número inteiro:</label > 
+                        <div>
+                            <input type="number" id="valor1">
+                            <button  class="button" onclick="verificarPar()">Verificar</button >
+                            <p id="resultado1"></p>
+                        </div>
+                    </div>
+
+                    <div class="box2 escondido" id="div2" >
+                        <h2>Primo ou Composto</h2>
+                        <label > Digite um número inteiro:</label > 
+                        <div>
+                            <input type="number" id="valor2">
+                            <button class="button"  onclick="verificarPrimo()">Verificar</button  >
+                            <p id="resultado2"></p>
+                        </div>
+                    </div>
+
+                    <div class="box3 escondido" id="div3">
+                        <h2>Modulo</h2>
+                        <label > Digite dois números inteiros:</label > 
+                        <div>
+                            <input type="number" id="valueMod1">
+                            <input type="number" id="valueMod2">
+                            <button class="button"  onclick="verificarMod()">Verificar</button >
+                            <p id="resultado3"></p>
+                        </div>
+                    </div>
+
+                    <div class="box4 escondido" id="div4">
+                        <h2>MMC</h2>
+                        <label > Digite dois números inteiros:</label > 
+                        <div>
+                            <input type="number" id="valueMMC1">
+                            <input type="number" id="valueMMC2">
+                            <button class="button"  onclick="verificarMMC()">Verificar</button  >
+                            <p id="resultado4"></p>
+                        </div>
+                    </div> 
+
+                    <div class="box5 escondido" id="div5">
+                        <H2>MDC</H2>
+                        <label > Digite dois número inteiros:</label > 
+                        <div>
+                            <input type="number" id="valueMDC1">
+                            <input type="number" id="valueMDC2">
+                            <button class="button"  onclick="verificarMDC()">Verificar</button >
+                            <p id="resultado5"></p>
+                        </div>
+                    </div> 
+
+                  </div>
+              </div>
+                
+
+            </div>
+
+            </div>
+
+        </div>
+    </body>
+
+    <script src="./index.js">
+      
+    </script>
+</html>

@@ -1,0 +1,471 @@
+@media only screen and (min-width: 601px) {
+ body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 20px;
+    background: linear-gradient(90deg,  rgb(0, 0, 0), #000000);
+}
+.button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(113, 9, 173);
+    color: white;
+    height: 30px;
+
+}
+
+h1 {
+    margin: 20px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pImp{
+    margin: 20px;
+    background-color: #790ae0;
+    border-radius: 8px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    height: 50px;
+    font-size: large;   
+    z-index: 2;
+  }
+  
+  .pImp:hover{
+     background-color: #5d08ad;
+     animation:slidebg 5s linear infinite;
+  }
+
+  .primComp{
+    margin: 20px;
+    background-color: #790ae0;
+    border-radius: 8px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    height: 50px;
+    font-size: large; 
+    z-index: 2; 
+  }
+  
+  .primComp:hover{
+     background-color: #5d08ad;
+     animation:slidebg 5s linear infinite;
+  }
+
+  .mod{
+    margin: 20px;
+    background-color: #790ae0;
+    border-radius: 8px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    height: 50px;
+    font-size: large; 
+    z-index: 2; 
+  }
+  
+  .mod:hover{
+     background-color: #5d08ad;
+     animation:slidebg 5s linear infinite;
+  }
+
+  .mmc{
+    margin: 20px;
+    background-color: #790ae0;
+    border-radius: 8px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    height: 50px;
+    font-size: large;
+    z-index: 2;
+  }
+  
+  .mmc:hover{
+     background-color: #5d08ad;
+     animation:slidebg 5s linear infinite;
+  }
+
+  .mdc{
+    margin: 20px;
+    background-color: #790ae0;
+    border-radius: 8px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    height: 50px;
+    font-size: large;  
+    z-index: 2;
+  }
+  
+  .mdc:hover{
+     background-color: #5d08ad;
+     animation:slidebg 5s linear infinite;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: center;
+  }
+
+.box1 {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(5, 5, 46);
+    box-shadow: 0 0 5.5px 0 white;
+    height: 200px;
+    width: 400px; 
+    margin: 20px;
+    border-radius: 25px;
+    color: white;
+    z-index: 2;
+}
+
+.box2 {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(5, 5, 46);
+    box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 25px;
+    color: white;
+    z-index: 2;
+}
+
+
+.box3 {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(5, 5, 46);
+    box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 25px;
+    color: white;
+    z-index: 2;
+}
+
+.box4 {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(5, 5, 46);
+    box-shadow: 0 0 5.5px 0 rgb(255, 253, 253);
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 25px;
+    color: white;
+    z-index: 2;
+}
+
+.box5 {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(5, 5, 46);
+    box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 25px;
+    color: white;
+    z-index: 2;
+}
+
+.escondido {
+    display: none;
+  }
+
+.visivel {
+ animation:fadeIn ease-in-out forwards 1s;
+    display: block;
+    }
+    
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  
+
+        }                 
+        @media only screen and (max-width: 600px) {
+          body {
+             display: flex;
+             justify-content: center;
+             height: 100vh;
+             margin: 20px;
+             background: linear-gradient(90deg,  rgb(0, 0, 0), #000000);
+         }
+         .button{
+             margin-top: 10px;
+             border: none;
+             border-radius: 25px;
+             background-color: rgb(113, 9, 173);
+             color: white;
+             height: 30px;
+         
+         }
+         
+         h1 {
+             margin: 20px;
+             color: white;
+         }
+         
+         .title {
+             display: flex;
+             justify-content: center;
+             font-family: Arial, Helvetica, sans-serif;
+             position: relative;
+             left: 120px;
+         }
+         
+         .buttons {
+             display: flex;
+             justify-content: space-between;
+             justify-content: center;
+             align-items:baseline;
+             flex-direction: column;
+             position: relative;
+             left: -30px;
+
+         
+         }
+         
+         .pImp{
+             margin: 20px;
+             background-color: #790ae0;
+             border-radius: 8px;  
+             color: #fff;
+             cursor: pointer;
+             padding: 8px 16px;
+             border: none;
+             height: 50px;
+             width: 150px;
+             font-size: large; 
+             text-align: center;
+             z-index: 2;
+           }
+           
+           .pImp:hover{
+              background-color: #5d08ad;
+              animation:slidebg 5s linear infinite;
+           }
+         
+           .primComp{
+             margin: 20px;
+             background-color: #790ae0;
+             border-radius: 8px;  
+             color: #fff;
+             cursor: pointer;
+             padding: 8px 16px;
+             border: none;
+             height: 50px;
+             width: 150px;
+             font-size: large; 
+             z-index: 2; 
+           }
+           
+           .primComp:hover{
+              background-color: #5d08ad;
+              animation:slidebg 5s linear infinite;
+           }
+         
+           .mod{
+             margin: 20px;
+             background-color: #790ae0;
+             border-radius: 8px;  
+             color: #fff;
+             cursor: pointer;
+             padding: 8px 16px;
+             border: none;
+             height: 50px;
+             width: 150px;
+             font-size: large; 
+             z-index: 2; 
+           }
+           
+           .mod:hover{
+              background-color: #5d08ad;
+              animation:slidebg 5s linear infinite;
+           }
+         
+           .mmc{
+             margin: 20px;
+             background-color: #790ae0;
+             border-radius: 8px;  
+             color: #fff;
+             cursor: pointer;
+             padding: 8px 16px;
+             border: none;
+             height: 50px;
+             width: 150px;
+             font-size: large;
+             z-index: 2;
+           }
+           
+           .mmc:hover{
+              background-color: #5d08ad;
+              animation:slidebg 5s linear infinite;
+           }
+         
+           .mdc{
+             margin: 20px;
+             background-color: #790ae0;
+             border-radius: 8px;  
+             color: #fff;
+             cursor: pointer;
+             padding: 8px 16px;
+             border: none;
+             height: 50px;
+             width: 150px;
+             font-size: large;
+             z-index: 2;
+           }
+           
+           .mdc:hover{
+              background-color: #5d08ad;
+              animation:slidebg 5s linear infinite;
+           }
+         
+           .boxes {
+             display: flex;
+             justify-content: center;
+             position: relative;
+             top: -400px;
+             left: 140px;
+            
+           }
+         
+         .box1 {
+             justify-content: start;
+             align-items: center;
+             text-align: center;
+             flex-direction: column;
+             background-color: rgb(5, 5, 46);
+             box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+             height: 200px;
+             width: 360px; 
+             margin: 20px;
+             border-radius: 25px;
+             color: white;
+             z-index: 2;
+         }
+         
+         .box2 {
+             justify-content: start;
+             align-items: center;
+             text-align: center;
+             flex-direction: column;
+             background-color: rgb(5, 5, 46);
+             box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+             height: 200px;
+             width: 360px;
+             margin: 20px;
+             border-radius: 25px;
+             color: white;
+             z-index: 2;
+         }
+         
+         
+         .box3 {
+             justify-content: start;
+             align-items: center;
+             text-align: center;
+             flex-direction: column;
+             background-color: rgb(5, 5, 46);
+             box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+             height: 200px;
+             width: 360px;
+             margin: 20px;
+             border-radius: 25px;
+             color: white;
+             z-index: 2;
+         }
+         
+         .box4 {
+             align-items: center;
+             text-align: center;
+             flex-direction: column;
+             background-color: rgb(5, 5, 46);
+             box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+             height: 200px;
+             width: 360px;
+             margin: 20px;
+             border-radius: 25px;
+             color: white;
+             z-index: 2;
+         }
+         
+         .box5 {
+             justify-content: start;
+             align-items: center;
+             text-align: center;
+             flex-direction: column;
+             background-color: rgb(5, 5, 46);
+             box-shadow: 0 0 5.5px 0 rgb(255, 255, 255);
+             height: 200px;
+             width: 360px;
+             margin: 20px;
+             border-radius: 25px;
+             color: white;
+             z-index: 2;
+         }
+         
+         .escondido {
+             display: none;
+           }
+         
+         .visivel {
+          animation: fadeIn ease-in-out forwards 1s;
+             display: block;
+             }
+         
+                 }     
+                 @keyframes fadeIn {
+                  from {
+                      opacity: 0;
+                  }
+                  to {
+                      opacity: 1;
+                  }
+              }
+                          
+         

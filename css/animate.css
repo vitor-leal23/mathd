@@ -1,0 +1,16 @@
+
+.equation {
+    position: absolute;
+    font-size: 16px;
+    color: #3ef710;
+    animation: floatEquation linear infinite;
+}
+
+@keyframes floatEquation {
+    0% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
